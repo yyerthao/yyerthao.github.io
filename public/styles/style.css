@@ -7,9 +7,27 @@ body {
     color: white;
 }
 
-.ext-link{
+.ext-link {
     color: black;
     background-color: rgb(186, 186, 186);
+}
+
+.int-link {
+    color: black;
+    background-color: #E28413;
+    box-shadow: inset -2px -2px rgba(0, 0, 0, 0.502), inset 2px 2px rgba(255, 255, 255, 0.481);
+}
+
+.int-link:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.502),
+        inset -2px -2px rgba(255, 255, 255, 0.481);
+}
+
+.int-link:hover{
+    background-color: #dc9845;
+}
+
+.btn-link {
     border-radius: .2rem;
     padding: .4rem .6rem;
 }
@@ -40,6 +58,6 @@ header {
 
 
 
-footer{
+footer {
     color: white;
 }
