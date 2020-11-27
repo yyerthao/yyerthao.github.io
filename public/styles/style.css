@@ -1,0 +1,45 @@
+/* @import "style2.css"; */
+
+body {
+    background-color: rgb(53, 52, 52);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.ext-link{
+    color: black;
+    background-color: rgb(186, 186, 186);
+    border-radius: .2rem;
+    padding: .4rem .6rem;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+
+#header-h1 {
+    font-size: 3rem;
+}
+
+#header-quote {
+    font-style: inherit;
+}
+
+
+#profile-img {
+    width: 260px;
+    height: 280px;
+    border-radius: 50%;
+    /* filter: greyscale(100%); */
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+footer{
+    color: white;
+}
