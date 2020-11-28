@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header>Contact</header>
-    
-</body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <main>
+        <div>
+            <p>Please feel free to connect with me via email.</p>
+            <form id="email" method="post" action="mailto:maivyerthao@gmail.com">
+                <input class="input-email int-link btn-link" type="submit" value="Send Email" />
+            </form>
+        </div>
+    </main>
     <footer>
-        <h3><a href="index.html">Back to main</a></h3>
+        <a href="index.html" id="btn-contact" class="int-link btn-link">Back to Main</a>
     </footer>
+</body>
 
 </html>
+
+
+
+<!-- 
+    https://stackoverflow.com/questions/18239513/how-do-i-code-my-submit-button-go-to-an-email-address
+    * Used source to add formaction to allow user to send send email to me
+
+ -->

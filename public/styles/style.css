@@ -1,4 +1,13 @@
-/* @import "style2.css"; */
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+    font-weight: bold;
+}
 
 body {
     background-color: #dfad8c;
@@ -12,12 +21,11 @@ body {
     color: white;
     text-decoration: none;
     box-shadow: inset -2px -2px rgba(0, 0, 0, 0.502), inset 2px 2px rgba(255, 255, 255, 0.481);
-    background-color: rgba(131, 123, 172, 0.776);
+    background-color: rgba(84, 103, 165, 0.776);
 }
 
-
 .ext-link:hover{
-    background-color: #9a7fb86e;
+    background-color: #475cae6e;
 }
 .int-link {
     color: white;
@@ -41,6 +49,10 @@ body {
     padding: .4rem .6rem;
 }
 
+#email{
+    margin: 1rem;
+}
+
 header {
     margin-top: 3rem;
 }
@@ -48,17 +60,24 @@ header {
 
 #header-h1 {
     font-size: 4rem;
-    font-weight: bolder;
+    font-weight: 300;
 }
 
 #header-quote {
     font-style: inherit;
 }
 
-h3{
-    font-size: larger;
+h3 {
     color: white;
+    font-weight: 400;
 }
+
+
+.input-email{
+    border: none;
+    background-color: rgb(101, 117, 181);
+}
+
 
 
 #profile-img {
@@ -72,7 +91,7 @@ h3{
 
 
 
-
 footer {
     color: white;
 }
+
