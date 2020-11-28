@@ -1,9 +1,9 @@
-@font-face{
+@font-face {
     font-family: OpenSans;
     src: url(../fonts/Open_Sans/OpenSans-Regular.ttf)
 }
 
-@font-face{
+@font-face {
     font-family: OpenSans;
     src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
     font-weight: bold;
@@ -16,6 +16,18 @@ body {
     color: rgb(84, 84, 84);
 }
 
+.btn-link {
+    text-decoration: none;
+    border-radius: .2rem;
+    padding: .4rem .6rem;
+}
+
+.container {
+    margin-right: 36rem;
+    margin-left: 36rem;
+    margin-top: 2rem;
+}
+
 .ext-link {
     /* display: inline-block; */
     color: white;
@@ -24,9 +36,10 @@ body {
     background-color: rgba(84, 103, 165, 0.776);
 }
 
-.ext-link:hover{
+.ext-link:hover {
     background-color: #475cae6e;
 }
+
 .int-link {
     color: white;
     text-decoration: none;
@@ -39,24 +52,22 @@ body {
         inset -2px -2px rgba(223, 134, 75, 0.584);
 }
 
-.int-link:hover{
+.int-link:hover {
     background-color: #d2854bb3;
 }
 
-.btn-link {
-    text-decoration: none;
-    border-radius: .2rem;
-    padding: .4rem .6rem;
+
+#email {
+    margin: 1rem;
 }
 
-#email{
-    margin: 1rem;
+footer {
+    color: white;
 }
 
 header {
     margin-top: 3rem;
 }
-
 
 #header-h1 {
     font-size: 4rem;
@@ -72,13 +83,14 @@ h3 {
     font-weight: 400;
 }
 
-
-.input-email{
+.input-email {
     border: none;
     background-color: rgb(101, 117, 181);
 }
 
-
+li {
+    list-style-type: none;
+}
 
 #profile-img {
     width: 270px;
@@ -86,12 +98,17 @@ h3 {
     border-radius: 50%;
     /* filter: greyscale(100%); */
     margin-bottom: 1rem;
+}
 
+.p {
+    word-break: inherit;
+}
+
+
+.p2 {
+    margin-top: 1rem;
 }
 
 
 
-footer {
-    color: white;
-}
 
