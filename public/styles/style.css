@@ -80,6 +80,9 @@ header {
     font-weight: 300;
 }
 
+.header-h3{
+    text-align: left;
+}
 #header-quote {
     font-style: inherit;
 }
@@ -107,6 +110,8 @@ li {
 .p2 {
     margin-top: 1rem;
 }
+
+
 
 #profile-img {
     width: 270px;
