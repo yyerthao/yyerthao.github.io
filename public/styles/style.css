@@ -9,6 +9,9 @@
     font-weight: bold;
 }
 
+.about-p {
+    text-align: left;
+}
 
 body {
     background-color: #dfad8c;
@@ -24,10 +27,11 @@ body {
 }
 
 .container {
-    padding-right: 30rem;
-    padding-left: 30rem;
-    margin-top: 1rem;
+    margin: 1rem 30rem;
+    /* max-width: fit-content;  works well on image */
 }
+
+/* max-width: adjusts accordingly to window sizing */
 
 #email {
     margin: 1rem;
@@ -77,12 +81,13 @@ header {
 
 #header-h1 {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.header-h3{
+.header-h3 {
     text-align: left;
 }
+
 #header-quote {
     font-style: inherit;
 }
@@ -91,6 +96,14 @@ header {
     border: none;
     background-color: rgb(101, 117, 181);
 }
+
+/* .layout{
+    background-color: white;
+    padding: 2rem 8rem;
+    max-width: fit-content;
+    margin: auto;
+    border: 1px solid rgb(167, 167, 167);
+} */
 
 li {
     list-style-type: none;
@@ -111,8 +124,6 @@ li {
     margin-top: 1rem;
 }
 
-
-
 #profile-img {
     width: 270px;
     height: 280px;
@@ -120,7 +131,22 @@ li {
     margin-bottom: .5rem;
 }
 
-#to-do {
-    width: 400px;
-    height: 410px;
+#photo-sun {
+    width: 270px;
+    height: 280px;
+    border-radius: .9rem;
+    float: left;
+    background: grey;
+    margin-right: 1rem;
 }
+
+#photo-todo {
+    width: 420px;
+    height: 430px;
+    float: center;
+    background: grey;
+    margin-left: 1rem;
+    box-shadow: rgba(161, 161, 161, 0.596) 2px 2px 30px,
+    rgba(161, 161, 161, 0.596) -2px -2px 30px;
+}
+

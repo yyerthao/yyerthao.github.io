@@ -32,3 +32,7 @@ Consider adding images for your pinned projects, assuming a visitor may not clic
 - Deployment to Netlify (no server needed): https://www.netlify.com/
 - React App deployment (AWS, Github Pages, Heroku, Firebase): https://create-react-app.dev/docs/deployment/
 - Custom domains for heroku: https://support.google.com/domains/answer/6346300?hl=en
+
+
+
+

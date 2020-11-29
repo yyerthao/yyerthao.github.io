@@ -7,3 +7,5 @@ function readyNow(){
     console.log(' inside readyNow function ');
 }
 
+
+
