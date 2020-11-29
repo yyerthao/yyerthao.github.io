@@ -25,6 +25,8 @@ body {
     margin: auto;
 }
 
+
+
 .btn-link {
     text-decoration: none;
     border-radius: .2rem;
@@ -33,7 +35,14 @@ body {
 
 .container {
     margin: 1rem 30rem;
-    /* max-width: fit-content;  works well on image */
+    max-width: fit-content; 
+}
+
+.cover-main{
+    background-attachment: fixed;
+    background-image: url(./images/background.png);
+    margin-right: 20rem;
+    margin-left: 20rem;
 }
 
 /* max-width: adjusts accordingly to window sizing */
@@ -81,7 +90,7 @@ h3 {
 }
 
 header {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #header-h1 {
@@ -114,23 +123,33 @@ li {
     list-style-type: none;
 }
 
+.main{
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
 .nav {
     list-style-type: none;
-    background-color: rgba(72, 63, 57, 0.42);
+    background-color: rgba(133, 105, 90, 0.42);
     overflow: hidden;
     /* margin-right: 20rem;
     margin-left: 20rem; */
-    padding: 24px 26px;
+    padding: 40px 42px;
 }
 
+.nav-index{
+    margin-top: 20%;
+}
 
-.p {
+.nav:hover{
+    background-color: rgb(164, 124, 102);
+}
+
+.p, .p2 {
     word-break: inherit;
-}
-
-.p2 {
     margin-top: 1rem;
 }
+
 
 #profile-img {
     width: 270px;
