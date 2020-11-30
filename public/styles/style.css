@@ -16,7 +16,7 @@
 
 .font-lrg {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 h1 {
@@ -37,22 +37,20 @@ h3 {
 }
 
 /* ----------------------- BODY ----------------------- */
-
-
 body {
-    background-color: #c49271;
     font-family: 'Open Sans', sans-serif;
+    background-color: #353434;
     text-align: center;
-    color: rgb(84, 84, 84);
+    color: rgb(193, 189, 189);
     margin: 0 auto;
 }
+
 .container {
-    background-color: #c49271;
     max-width: fit-content;
     min-height: 100vh;
-    max-width: 50rem;
+    max-width: 65rem;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .main {
@@ -60,20 +58,13 @@ body {
     margin-left: 10rem;
 }
 
-/* ----------------------- color styles ----------------------- */
+/* ------------------------ individual styles ----------------------- */
+.p-bold {
+    font-weight: bolder;
 
-
-/* .blue {
-    background-color: blue;
 }
 
-.black {
-    background-color: black;
-} */
-
-
-/* ----------------------- X ----------------------- */
-
+/* ----------------------- MISC ----------------------- */
 footer {
     color: white;
 }
@@ -86,39 +77,37 @@ li {
     list-style-type: none;
 }
 
-
 .nav {
     list-style-type: none;
-    background-color: rgba(133, 105, 90, 0.42);
+    background-color: rgb(45, 113, 114);
     overflow: hidden;
-    /* margin-right: 20rem;
-    margin-left: 20rem; */
     padding: 40px 0;
     position: fixed;
     display: block;
     width: 100vw;
+    left: 0;
 }
 
 .nav-index {
     margin-top: 20%;
 }
 
-.nav:hover {
-    background-color: rgb(164, 124, 102);
-}
+/* .nav:hover { 
+    background-color: rgb(164, 124, 102); 
+} */
 
-.about-p {
+.p-left {
     text-align: left;
 }
 
-.p,
-.p2 {
+.p {
     word-break: inherit;
-    margin-top: 1rem;
 }
 
+.p-margin {
+    margin-top: 1rem;
+}
 /* ----------------------- Images ----------------------- */
-
 #profile-img {
     width: 270px;
     height: 280px;
@@ -137,15 +126,23 @@ li {
 
 #photo-todo {
     width: 420px;
-    height: 430px;
+    height: 460px;
     float: center;
-    background: grey;
-    box-shadow: rgba(161, 161, 161, 0.596) 2px 2px 30px,
-    rgba(161, 161, 161, 0.596) -2px -2px 30px;
+    background: rgb(213, 212, 212);
+    box-shadow: rgba(169, 168, 168, 0.596) 2px 2px 30px,
+        rgba(161, 161, 161, 0.596) -2px -2px 30px;
+    border-radius: .5rem;
 }
 
-/* ----------------------- Buttons ----------------------- */
+/* #photo-banzz{ COME BACK AND INCLUDE ME INTO LIKES
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    border-radius: .5rem;
+    float: right;
+} */
 
+/* ----------------------- Buttons ----------------------- */ 
 .btn-link {
     text-decoration: none;
     border-radius: .2rem;
@@ -153,32 +150,32 @@ li {
 }
 
 .ext-link {
-    color: white;
+    color: black;
     text-decoration: none;
     box-shadow: inset -2px -2px rgba(0, 0, 0, 0.502), inset 2px 2px rgba(255, 255, 255, 0.481);
-    background-color: rgba(83, 104, 165, 0.776);
+    background-color: rgba(250, 245, 75, 0.947);
     word-break: inherit;
 }
 
 .ext-link:hover {
-    background-color: #576dc76e;
+    background-color: #dcdeba6e;
 }
 
 .int-link {
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: #bf722ed2;
+    background-color: #9b9b94d2;
     box-shadow: inset -2px -2px rgba(0, 0, 0, 0.502), inset 2px 2px rgba(255, 255, 255, 0.481);
     word-break: inherit;
 }
 
 .int-link:active {
     box-shadow: inset 2px 2px rgba(0, 0, 0, 0.502),
-        inset -2px -2px rgba(223, 134, 75, 0.584);
+        inset -2px -2px rgba(235, 218, 119, 0.584);
 }
 
 .int-link:hover {
-    background-color: #d2854bb3;
+    background-color: #e6c456b3;
 }
 
 .input-email {
