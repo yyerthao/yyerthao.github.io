@@ -9,7 +9,7 @@
 
 _Duration: 3 days
 
-Personal website 
+Personal website allowing viewer to learn about me, view my portfolio of projects, and contact me.
 
 
 ## Screen Shot
@@ -36,7 +36,7 @@ Personal website
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. (Thank your people)
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. 
 
 ## Support
 If you have suggestions or issues, please email me at [maivyerthao@gmail.com](www.google.com)
