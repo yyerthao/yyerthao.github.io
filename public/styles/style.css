@@ -1,14 +1,3 @@
-@font-face {
-    font-family: OpenSans;
-    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf)
-}
-
-@font-face {
-    font-family: OpenSans;
-    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
-    font-weight: bold;
-}
-
 
 
 /* ----------------------- Header ----------------------- */
@@ -37,7 +26,7 @@ h3 {
 
 /* ----------------------- BODY ----------------------- */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     /* background-color: #353434; */
     background-image: url(../images/background.jpg);
     background-position: center;
@@ -104,7 +93,7 @@ li {
 } 
 
 
-.p-left {
+.h3-left {
     text-align: left;
 }
 
