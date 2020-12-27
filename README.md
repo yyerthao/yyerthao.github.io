@@ -25,12 +25,13 @@ Personal website allowing viewer to learn about me, view my portfolio of project
 ## Usage
 
 1. Open in browser
-2. Use buttons on navigation bar to learn about me, check out portfolio, or find contact information.
+2. Use buttons on navigation bar to navigate to appropriate views.
 
 ## Built With
 
 * HTML
 * CSS
+* BootStrap
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

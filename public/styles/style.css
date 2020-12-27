@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    color: rgb(52, 50, 50);
+    color: rgb(28, 27, 27);
     font-weight: 400;
 }
 
@@ -29,7 +29,7 @@ h3 {
 body {
     font-family: 'Raleway', sans-serif;
     /* background-color: #353434; */
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,8 +39,10 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 .container {
-    background-color: rgba(142, 125, 112, 0.413);
+    background-color: rgba(250, 248, 245, 0.598);
     max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem;
@@ -81,7 +83,7 @@ li {
 
 .nav {
     list-style-type: none;
-    background-color: rgb(43, 40, 40);
+    background-color: rgb(38, 37, 37);
     overflow: hidden;
     padding: 45px 0;
     position: fixed;
@@ -90,8 +92,6 @@ li {
     left: 0;
     margin-bottom: 15rem;
     max-width: 100%;
-    box-shadow: rgba(169, 168, 168, 0.153) -2px -2px 30px,
-    rgba(161, 161, 161, 0.596) -2px -2px 30px; 
 } 
 
 
@@ -147,6 +147,12 @@ h3{
     border-radius: .5rem;
 }
 
+#photo-feed{
+    width:420px;
+    height: 300px;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
 
 
 /* #photo-banzz{ COME BACK AND INCLUDE ME INTO LIKES
