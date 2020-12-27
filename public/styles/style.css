@@ -9,6 +9,7 @@
 
 h1 {
     margin: 1rem;
+    margin-top: 2rem;
 }
 
 h3 {
@@ -87,6 +88,7 @@ li {
     display: block;
     width: 100vw;
     left: 0;
+    margin-bottom: 15rem;
     max-width: 100%;
     box-shadow: rgba(169, 168, 168, 0.153) -2px -2px 30px,
     rgba(161, 161, 161, 0.596) -2px -2px 30px; 
@@ -95,10 +97,15 @@ li {
 
 .h3-left {
     text-align: left;
+    color: rgb(43, 42, 42);
+}
+h3{
+    color: rgb(43, 42, 42);
 }
 
 .p {
     word-break: inherit;
+    color: rgb(43, 42, 42);
 }
 
 .p-margin {
