@@ -12,9 +12,9 @@ _Duration: 3 days
 Personal website allowing viewer to learn about me, view my portfolio of projects, and contact me.
 
 
-## Screen Shot
-
-![intro](screenshot.png)
+<!-- ## Screen Shot -->
+<!-- 
+![intro](screenshot.png) -->
 
 
 <!-- 
