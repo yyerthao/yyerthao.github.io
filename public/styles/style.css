@@ -2,20 +2,16 @@
 
 /* ----------------------- Header ----------------------- */
 
-/* .font-lrg {
-    font-size: 4rem;
-    font-weight: 600;
-} */
 
 h1 {
-    margin: 1rem;
-    margin-top: 2rem;
-    font-weight: 400;
-
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 h3 {
     color: rgb(28, 27, 27);
+    font-weight: 400;
     font-weight: 400;
 }
 
@@ -23,15 +19,11 @@ h3 {
     text-align: left;
 }
 
-#header-quote {
-    font-style: inherit;
-}
 
 /* ----------------------- BODY ----------------------- */
 body {
-font-family: 'Martel',
-serif;
-/* background-color: #353434; */
+    /* font-family: 'Martel', serif; */
+    font-family: serif;
     background-image: url(../images/background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +37,7 @@ serif;
 
 
 .container {
-    background-color: rgba(250, 248, 245, 0.598);
+    background-color: rgba(228, 206, 196, 0.598);
     max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem;
@@ -170,7 +162,7 @@ h3{
 .btn-link {
     text-decoration: none;
     border-radius: .2rem;
-    padding: .4rem .7rem;
+    padding: .2rem 1rem;
     margin: .15rem;
 }
 
@@ -185,7 +177,7 @@ h3{
 }
 
 .ext-link:hover {
-    background-color: #f2a5476e;
+    background-color: #f4f4f253;
 }
 
 .int-link {
@@ -197,14 +189,13 @@ h3{
     word-break: inherit;
 }
 
-
 .int-link:active {
     box-shadow: inset 2px 2px rgba(0, 0, 0, 0.502),
     inset -2px -2px rgba(247, 210, 131, 0.584);
 }
 
 .int-link:hover {
-    background-color: #cbc9c7d0;
+    background-color: #f4f4f253;
 }
 
 .input-email {
