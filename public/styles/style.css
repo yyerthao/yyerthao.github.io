@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-    background-color: rgba(203, 155, 118, 0.297);
+    background-color: rgba(142, 125, 112, 0.413);
     max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem;
@@ -80,9 +80,9 @@ li {
 
 .nav {
     list-style-type: none;
-    background-color: rgb(62, 55, 53);
+    background-color: rgb(43, 40, 40);
     overflow: hidden;
-    padding: 32px 0;
+    padding: 45px 0;
     position: fixed;
     display: block;
     width: 100vw;
