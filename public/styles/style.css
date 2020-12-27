@@ -46,8 +46,8 @@ body {
 }
 
 .main {
-    margin-right: 15rem;
-    margin-left: 15rem;
+    margin-right: 17rem;
+    margin-left: 17rem;
 }
 
 .contact-main{
@@ -61,9 +61,12 @@ body {
 
 }
 
+
+#bio-intro{
+    margin: 1rem 5rem;
+}
+
 /* ----------------------- MISC ----------------------- */
-
-
 
 #email {
     margin: 1rem;
@@ -75,7 +78,7 @@ li {
 
 .nav {
     list-style-type: none;
-    background-color: rgb(53, 49, 47);
+    background-color: rgb(62, 59, 58);
     overflow: hidden;
     padding: 48px 0;
     position: fixed;
