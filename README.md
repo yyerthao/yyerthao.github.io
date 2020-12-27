@@ -7,25 +7,20 @@
 
 ## Description
 
-_Duration: 3 days
+_Duration: Ongoing, update as needed to reflect most current work of portfolio
 
 Personal website allowing viewer to learn about me, view my portfolio of projects, and contact me.
 
 
-<!-- ## Screen Shot -->
+## Screen Shot
+
+![intro](landingpage.png)
+
 <!-- 
-![intro](screenshot.png) -->
-
-
-<!-- 
-
-### Prerequisites
- -->
-
 ## Usage
 
 1. Open in browser
-2. Use buttons on navigation bar to navigate to appropriate views.
+2. Use buttons on navigation bar to navigate to appropriate views. -->
 
 ## Built With
 
