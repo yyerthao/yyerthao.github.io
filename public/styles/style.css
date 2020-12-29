@@ -4,7 +4,7 @@
 
 
 h1 {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-weight: 700;
     font-size: 3rem;
 }
@@ -41,7 +41,7 @@ body {
     max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem;
-    margin: 0 auto;
+    margin: 0 12rem;;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
