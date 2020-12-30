@@ -40,16 +40,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: rgb(52, 50, 50);
+    color: rgb(72, 71, 71);
     margin: auto;
     background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 
 
 
 .container {
     /* background-color: rgba(220, 215, 214, 0.338); */
-    margin: auto;
+    margin: auto 11rem;
     /* max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem; */
@@ -152,7 +154,7 @@ h3{
     width: 270px;
     height: 280px;
     border-radius: 50%;
-    margin: auto;
+    margin: 0.5rem auto;
 }
 
 #photo-sun {
