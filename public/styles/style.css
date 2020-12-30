@@ -3,8 +3,8 @@
 /* ----------------------- Header ----------------------- */
 
 html{
-    background-color: rgba(220, 215, 214, 0.557);
-    background-image: url(../images/background.jpeg);
+    /* background-color: rgba(220, 215, 214, 0.557); */
+    background-image: url(../images/background.png);
         background-position: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -41,14 +41,15 @@ body {
     background-size: cover;
     text-align: center;
     color: rgb(52, 50, 50);
-    margin: 0 auto;
+    margin: auto;
     background-repeat: no-repeat;
 }
 
 
 
 .container {
-    background-color: rgba(220, 215, 214, 0.338);
+    /* background-color: rgba(220, 215, 214, 0.338); */
+    margin: auto;
     /* max-width: fit-content;
     min-height: 100vh;
     max-width: 76rem; */
@@ -195,7 +196,7 @@ h3{
     text-decoration: none;
     box-shadow: inset -2px -2px rgba(0, 0, 0, 0.502), inset 2px 2px rgba(255, 255, 255, 0.481);
     background-color: rgba(151, 175, 187, 0.947);
-    word-break: inherit;
+    /* word-break: inherit; */
     font-weight: bolder;
     font-size: 1.0rem;
 }
@@ -209,8 +210,9 @@ h3{
     font-size: 1.2rem;
     color: rgb(58, 57, 57);
     text-decoration: none;
-    background-color: #f9c1ade5;
-    word-break: inherit;
+    background-color: #e4cfc7e5;
+    margin-bottom: 0.5rem;
+    /* word-break: inherit; */
 }
 
 .int-link:active {
