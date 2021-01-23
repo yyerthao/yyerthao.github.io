@@ -4,14 +4,15 @@
 
 html{
     /* background-color: rgba(220, 215, 214, 0.557); */
-    background-image: url(../images/background.png);
-        background-position: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        color: rgb(52, 50, 50);
-        margin: 0 auto;
-        background-repeat: no-repeat;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('../images/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
