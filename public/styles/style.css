@@ -34,32 +34,14 @@ h3 {
 
 /* ----------------------- BODY ----------------------- */
 body {
-    /* font-family: 'Martel', serif; */
-    font-family: serif;
-    /* background-image: url(../images/background.jpeg); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: rgb(72, 71, 71);
-    margin: auto;
-    background-repeat: no-repeat;
-    margin-bottom: 5rem;
-    margin-top: 2rem;
+    margin: 4rem 10rem;
+    text-align: justify;
 }
 
 
 
 .container {
-    /* background-color: rgba(220, 215, 214, 0.338); */
     margin: auto 11rem;
-    /* max-width: fit-content;
-    min-height: 100vh;
-    max-width: 76rem; */
-    /* margin: 0 12rem;;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    box-shadow: inset 5px 5px 5x pink; */
 }
 
 .main {

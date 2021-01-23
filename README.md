@@ -7,14 +7,11 @@
 
 ## Description
 
-_Duration: Ongoing, update as needed to reflect most current work of portfolio
-
-Personal website allowing viewer to learn about me, view my portfolio of projects, and contact me.
-
+Personal website allowing viewer to learn about me, view my portfolio of projects, and contact me. 
 
 ## Screen Shot
-
-![intro](landingpage.png)
+<!-- 
+![intro](landingpage.png) -->
 
 <!-- 
 ## Usage
@@ -28,8 +25,6 @@ Personal website allowing viewer to learn about me, view my portfolio of project
 * CSS
 * BootStrap
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgement
 Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. 
