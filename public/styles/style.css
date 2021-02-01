@@ -16,10 +16,11 @@ html{
 
 #name{
     margin-top: 3rem;
-    font-size: 50px;
+    font-size: 4rem;
     text-align: center;
     color: rgb(65, 58, 58);
     text-shadow: 5px 5px 5px rgb(160, 151, 151);
+    padding: 0 auto;
 }
 
 div.nav{
@@ -40,11 +41,14 @@ body{
     margin: 0 auto;
     margin-top: 2rem;
 }
+
+/* FLEX GRID */
 .flex-grid {
     display: flex;
     text-align: justify;
     margin: 0 12rem;
-    background-color: rgba(243, 240, 240, 0.199);
+    background-color: rgba(243, 240, 240, 0.096);
+    border-radius: 0.5rem;
 }
 
 .col{
@@ -76,6 +80,7 @@ body{
 a{
     text-decoration: none;
     color: rgb(70, 61, 61);
+    font-size: 1.5rem;
 }
 
 li {
@@ -92,6 +97,7 @@ li {
     border: 2px solid rgba(134, 105, 105, 0.363);
     display: block;
     margin: 0 auto 2rem auto;
+    padding: 0 auto;
 }
 
 #photo-sun {
