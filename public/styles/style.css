@@ -75,6 +75,10 @@ body{
      margin: 1rem 1rem;
  }
 
+ .center{
+     text-align: center;
+ }
+
 /* ---------------------------------------------- MISC STYLES ------------------------------------------- */
 
 a{
@@ -125,5 +129,6 @@ li {
 
 footer{
     margin-top: 8rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
