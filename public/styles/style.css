@@ -84,6 +84,18 @@ body{
      text-align: center;
  }
 
+#email{
+    background-color: rgba(250, 243, 244, 0.945);
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#email:hover{
+    background-color: rgba(248, 214, 201, 0.527);
+}
+
+
 /* ---------------------------------------------- MISC STYLES ------------------------------------------- */
 
 .nav-link{
