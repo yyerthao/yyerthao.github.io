@@ -51,6 +51,11 @@ body{
     border-radius: 0.5rem;
 }
 
+.inner-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .col{
     flex: 1;
 }
@@ -100,6 +105,14 @@ li {
     text-align: center;
 }
 
+
+.linkedin-margin-logo{
+    margin-top: 2rem;
+}
+
+.eight-px{
+    padding-top: 8px;
+}
 
 /* ------------------------------------------------ IMAGE ------------------------------------------------ */
 #profile-img {
