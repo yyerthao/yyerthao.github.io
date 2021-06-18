@@ -146,7 +146,7 @@ li {
     padding: 0 auto;
 }
 
-#photo-sun {
+.photo {
     width: 270px;
     height: 280px;
     border-radius: .9rem;
@@ -155,15 +155,15 @@ li {
     margin-right: 1rem;
 }
 
-#photo-todo {
-    width: 420px;
-    height: 460px;
-    float: center;
-    background: rgb(213, 212, 212);
-    box-shadow: rgba(169, 168, 168, 0.596) 2px 2px 30px,
-                rgba(170, 107, 107, 0.596) -2px -2px 30px;
-    border-radius: .5rem;
+#college-logo{
+    width: 270px;
+    height: 230;
+    border-radius: .9rem;
+    float: right;
+    background: grey;
+    margin-left: 1rem;
 }
+
 
 
 .logo-size{
