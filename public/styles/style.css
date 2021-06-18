@@ -149,19 +149,22 @@ li {
 .photo {
     width: 270px;
     height: 280px;
-    border-radius: .9rem;
+    border-radius: .4rem;
     float: left;
     background: grey;
     margin-right: 1rem;
+    -webkit-filter: saturate(1.0);
+    filter: saturate(70%);
 }
 
 #college-logo{
     width: 270px;
     height: 230;
-    border-radius: .9rem;
+    border-radius: .4rem;
     float: right;
     background: grey;
     margin-left: 1rem;
+
 }
 
 
