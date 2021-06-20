@@ -144,6 +144,8 @@ li {
     display: block;
     margin: 0 auto 2rem auto;
     padding: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .photo {
@@ -155,6 +157,20 @@ li {
     margin-right: 1rem;
     -webkit-filter: saturate(1.0);
     filter: saturate(70%);
+    max-width: 100%;
+    height: auto;
+}
+.photo-app {
+    width: 320px;
+    height: 200px;
+    border-radius: .4rem;
+    float: left;
+    background: grey;
+    margin-right: 1rem;
+    -webkit-filter: saturate(1.0);
+    filter: saturate(70%);
+    max-width: 100%;
+    height: auto;
 }
 
 #college-logo{
@@ -166,6 +182,8 @@ li {
     margin-left: 1rem;
     -webkit-filter: greyscale(100%);
     filter: greyscale(100%);
+    max-width: 100%; 
+    height: auto; 
 }
 
 .logo-size{
@@ -173,7 +191,8 @@ li {
     height: 50px;
     float: left;
     margin-right: 1rem;
-
+    max-width: 100%;
+    height: auto;
 }
 
 .logo-link {
